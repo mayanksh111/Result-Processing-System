@@ -1,42 +1,24 @@
-# Result Processing System Using Templates (C++)
 🎓 Result Processing System Using Templates (C++)
 
-A menu-driven console application built using C++ Function Templates and Class Templates to process student results efficiently. The project demonstrates generic programming by handling multiple data types (int, float, double, and char) without duplicating code.
+A menu-driven console application built using C++ Function Templates and Class Templates to process student results efficiently.
 
 📌 Project Overview
 
-Writing separate functions and classes for different data types leads to code duplication and poor maintainability.
+This project demonstrates generic programming in C++ by processing student scores using templates. The same code works with multiple data types without code duplication.
 
-This project solves that problem using C++ templates, allowing the same logic to work with different data types.
-
-Users can:
-
+✨ Features
 Process integer student scores.
 Process floating-point student scores.
 Find the largest of three values (int, double, char).
-Calculate the average of three scores.
-Validate score inputs within the range of 0–100.
-✨ Features
-Function Templates
-largestOfThree<T>() – Finds the largest of three values.
-averageOfThree<T>() – Calculates the average of three values.
-readScore<T>() – Validates scores between 0 and 100.
-processStudents<T>() – Processes student records using templates.
-Class Template
-StudentResult<T> – Stores student names and scores using a generic data type.
-Input Validation
-Handles invalid inputs.
-Rejects scores outside the 0–100 range.
-Prompts users to enter valid values again.
-Menu-Driven Interface
-Simple console-based navigation.
-Handles invalid menu choices.
-Supports integer and floating-point scores.
+Calculate the average of three values.
+Validate scores between 0 and 100.
+Handle invalid user inputs.
+Menu-driven console interface.
 🛠️ Technologies Used
 Language: C++
-Concepts: Function Templates, Class Templates, OOP, Encapsulation
 Compiler: g++
 Standard: C++11
+Concepts: Function Templates, Class Templates, OOP, Encapsulation.
 📂 Project Structure
 text
 Result-Processing-System/
@@ -50,19 +32,26 @@ Result-Processing-System/
     └── output3_invalid_input_validation.png
 
 🚀 How to Compile and Run
-1. Clone the Repository
+
+1. Clone the repository
+
 bash
 git clone <your-repository-url>
 
-2. Navigate to the Project Directory
+
+2. Open project folder
+
 bash
 cd Result-Processing-System
 
-3. Compile the Program
+
+3. Compile
+
 bash
 g++ -std=c++11 result_processor.cpp -o result
 
-4. Run the Program
+
+4. Run
 
 Linux / macOS:
 
@@ -107,15 +96,15 @@ Highest score : 92
 Average score : 85.00
 
 📸 Screenshots
-1. Integer Scores
+Integer Scores
 
 !Integer Scores
 
-2. Floating-Point Scores
+Floating-Point Scores
 
 !Floating Point Scores
 
-3. Input Validation
+Input Validation
 
 !Input Validation
 
@@ -125,34 +114,31 @@ Integer scores	85, 92, 78	Highest: 92, Average: 85.00
 Floating-point scores	72.5, 68.25, 90.75	Highest: 90.75, Average: 77.17
 Equal scores	50, 50, 50	Highest: 50, Average: 50.00
 Boundary values	0, 100, 50	Highest: 100, Average: 50.00
-Invalid input	abc, 150	Error message and re-prompt
+Invalid input	abc, 150	Error and re-prompt
 🧠 OOP Concepts Used
 Concept	Implementation
 Function Templates	largestOfThree, averageOfThree, readScore, processStudents
 Class Templates	StudentResult<T>
 Generic Programming	Reusing code for multiple data types
-Encapsulation	Private name and score with public getters and setters
-Constructor	StudentResult(string, T) with default arguments
+Encapsulation	Private data members with public getters and setters
+Constructor	StudentResult(string, T)
 ⚠️ Limitations
-Student records are not saved to files.
+Records are not saved to files.
 Only three students are processed per run.
-No grade calculation or ranking system is currently implemented.
+No grade calculation or ranking system.
 🔮 Future Scope
-Save and load student records using file handling.
-Support unlimited students using vector<StudentResult<T>>.
+Save and load records using file handling.
+Support multiple students using vectors.
 Add grade calculation.
-Implement sorting and ranking of student results.
-Generate detailed student performance reports.
-🌍 Sustainable Development Goals (SDG)
-
-SDG 4 – Quality Education: Encourages learning and practical implementation of programming concepts.
-
-SDG 9 – Industry, Innovation and Infrastructure: Promotes efficient software development through reusable and maintainable code.
-
+Implement sorting and ranking.
+Generate student performance reports.
+🌍 Sustainable Development Goals
+SDG 4 – Quality Education: Promotes programming knowledge and practical learning.
+SDG 9 – Industry, Innovation and Infrastructure: Encourages reusable and maintainable software development.
 👨‍💻 Author
 
-Your Name
+Mayank sharma
 
-⭐ If you find this project useful, consider giving this repository a star!
+⭐ If you find this project useful, don't forget to give this repository a star!
 
 Made with ❤️ using C++
