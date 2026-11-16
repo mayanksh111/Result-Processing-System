@@ -32,26 +32,19 @@ Result-Processing-System/
     └── output3_invalid_input_validation.png
 
 🚀 How to Compile and Run
-
-1. Clone the repository
-
+1. Clone the Repository
 bash
 git clone <your-repository-url>
 
-
-2. Open project folder
-
+2. Navigate to Project Directory
 bash
 cd Result-Processing-System
 
-
-3. Compile
-
+3. Compile the Program
 bash
 g++ -std=c++11 result_processor.cpp -o result
 
-
-4. Run
+4. Run the Program
 
 Linux / macOS:
 
@@ -96,15 +89,15 @@ Highest score : 92
 Average score : 85.00
 
 📸 Screenshots
-Integer Scores
+1. Integer Scores
 
 !Integer Scores
 
-Floating-Point Scores
+2. Floating-Point Scores
 
 !Floating Point Scores
 
-Input Validation
+3. Input Validation
 
 !Input Validation
 
@@ -132,12 +125,12 @@ Support multiple students using vectors.
 Add grade calculation.
 Implement sorting and ranking.
 Generate student performance reports.
-🌍 Sustainable Development Goals
+🌍 Sustainable Development Goals (SDG)
 SDG 4 – Quality Education: Promotes programming knowledge and practical learning.
 SDG 9 – Industry, Innovation and Infrastructure: Encourages reusable and maintainable software development.
 👨‍💻 Author
 
-Mayank sharma
+Your Name
 
 ⭐ If you find this project useful, don't forget to give this repository a star!
 
